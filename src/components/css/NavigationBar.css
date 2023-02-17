@@ -1,0 +1,66 @@
+.navigationBar {
+
+	display: flex;
+	height: 40px;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.navContents {
+	display: flex;
+	width: 40%;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px #e8e8e8 solid;
+	padding: 20px 10px 10px 10px;
+}
+
+.navBtns {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navBtns img {
+
+	margin-left: 10px;
+}
+
+.siteTitle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.siteTitle img {
+
+	width: 20px;
+	margin-right: 10px;
+}
+
+button {
+
+	border: 2px solid #4792e4;
+	border-radius: 2px;
+	height: 40px;
+	width: 80px;
+	margin: 0 4px;
+	transition: .5s;
+	font-size: .7em;
+	color: #4792e4;
+}
+
+button:focus {
+	outline: none;
+}
+
+button:hover {
+	border: 2px solid #3BB273;
+	font-size: .75em;
+	transition: .5s;
+	color: #888888;
+	cursor: pointer;
+}
